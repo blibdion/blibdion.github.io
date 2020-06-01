@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valaki kert</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="Oldal">Kezdőlap</h1>
+    <div id="DivID" class="divMenu">
+        <a class="menu" id="egy" onmouseenter="bigImgEgy4(this)" onmouseleave="normalImgEgy4(this)"href="/index.html">Kezdőlap</a>
+        <a class="menu" id="ketto" onmouseenter="bigImgKetto4(this)" onmouseleave="normalImgKetto4(this)"href="/rolunk.html">Róluk</a>
+        <a class="menu" id="harom" onmouseenter="bigImgHarom4(this)" onmouseleave="normalImgHarom4(this)"href="/galeria.html">Galéria</a>
+        <a class="menu" id="negy" onmouseenter="bigImgNegy4(this)" onmouseleave="normalImgNegy4(this)"href="/kapcsolat.html">Kapcsolat</a>
+    
+
+    </div>
+    <h1 id="header">Valaki kert</h1>
+    <p id="szlogen">Önnek is jár a szép kert</p>
+    <h2 id="udv">Üdvözöllek Weboldalunkon.</h2>
+    
+    <h1 id="szolg">Legfőbb szolgáltatásaink:</h1>
+    
+    
+    
+    
+    <div id="ImageDiv" onmouseenter="bigImgDiv(this)" onmouseleave="normalImgDiv(this)"> 
+        <p class="szolg2" id="kert">Kertépítés<span class="szolg2" id="to">Kertitavak</span><span class="szolg2" id="terep">Terepgondozás</span></p>
+        <img id="Elso" class="szolgPics" onmouseenter="bigImg(this)" onmouseleave="normalImg(this)" src="/img/kert.jpg" alt="kert">
+        <img id="Masodik" class="szolgPics" onmouseenter="bigImg2(this)" onmouseleave="normalImg2(this)" src="/img/tó.jpg" alt="tó">
+        <img id="Harmadik" class="szolgPics" onmouseenter="bigImg3(this)" onmouseleave="normalImg3(this)" src="/img/vág.jpg" alt="vág">
+
+
+    </div>
+    <h1>További szolgáltatásaink:</h1>
+    <ul id="ul">
+        <li class="li">Gyepszőnyeg lerakása, füvesítés, növénytelepítés.</li>
+        <li class="li">Viacolor lerakása.</li>
+        <li class="li">Automataöntöző rendszer telepítése.</li>
+    </ul>
+    <script type="text/javascript">
+       
+            function bigImgDiv(x) {
+              
+                document.getElementById("ImageDiv").style.boxShadow = "5px 5px 12px blue";    
+            }
+
+            function normalImgDiv(x) {
+                document.getElementById("ImageDiv").style.boxShadow = "3px 3px 10px 5px black";
+            }
+
+
+            function bigImg(x) {
+              
+              document.getElementById("Elso").style.boxShadow = "5px 5px 12px blue";
+          }
+
+          function normalImg(x) {
+              document.getElementById("Elso").style.boxShadow = "3px 3px 10px 5px black";
+          }
+
+
+          function bigImg2(x) {
+              
+              document.getElementById("Masodik").style.boxShadow = "5px 5px 12px blue";
+          }
+
+          function normalImg2(x) {
+              document.getElementById("Masodik").style.boxShadow = "3px 3px 10px 5px black";
+             
+          }
+          function bigImg3(x) {
+              
+              document.getElementById("Harmadik").style.boxShadow = "5px 5px 12px blue";
+                
+          }
+
+          function normalImg3(x) {
+              document.getElementById("Harmadik").style.boxShadow = "3px 3px 10px 5px black";
+             
+          }
+          function bigImgEgy4(x) {
+              
+            document.getElementById("egy").style.fontSize = "35px";
+                 
+          }
+
+          function normalImgEgy4(x) {
+              document.getElementById("egy").style.fontSize = "25px";
+             
+          }
+          function bigImgKetto4(x) {
+              
+              document.getElementById("ketto").style.fontSize = "35px";
+                  
+            }
+  
+            function normalImgKetto4(x) {
+                document.getElementById("ketto").style.fontSize = "25px";
+               
+            }
+            function bigImgHarom4(x) {
+              
+              document.getElementById("harom").style.fontSize = "35px";
+                  
+            }
+  
+            function normalImgHarom4(x) {
+                document.getElementById("harom").style.fontSize = "25px";
+               
+            }
+            function bigImgNegy4(x) {
+              
+              document.getElementById("negy").style.fontSize = "35px";
+                  
+            }
+  
+            function normalImgNegy4(x) {
+                document.getElementById("negy").style.fontSize = "25px";
+               
+            }
+    
+    </script>
+</body>
+<footer>
+    <div class="foot">
+        <h1>Készítő: Tóth Dániel</h1>
+    </div>
+
+</footer>
+</html>
