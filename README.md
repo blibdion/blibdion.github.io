@@ -1,2 +1,0 @@
-# blibdion.github.io
-valami
